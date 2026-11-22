@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Espressif ESP32-C3 / ESP32-S3 Native USB-CDC JTAG/Serial -->
+    <usb-device vendor-id="12346" /> <!-- 0x303A: Espressif -->
+    
+    <!-- CH340 / CH341 USB to Serial -->
+    <usb-device vendor-id="6790" /> <!-- 0x1A86: QinHeng Electronics -->
+    
+    <!-- Silicon Labs CP210x USB to UART Bridge -->
+    <usb-device vendor-id="4292" /> <!-- 0x10C4: Silicon Labs -->
+    
+    <!-- FTDI FT232 / FT2232 USB Serial -->
+    <usb-device vendor-id="1027" /> <!-- 0x0403: FTDI -->
+    
+    <!-- Prolific PL2303 -->
+    <usb-device vendor-id="1659" /> <!-- 0x067B: Prolific -->
+    
+    <!-- Generic CDC-ACM devices (Communication Device Class 2) -->
+    <usb-device class="2" />
+</resources>
